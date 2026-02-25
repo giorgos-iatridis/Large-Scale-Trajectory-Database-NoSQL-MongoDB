@@ -1,0 +1,139 @@
+{
+  "_id": {
+    "$oid": "69833ea96705fce15fef2c31"
+  },
+  "trip_id": 2,
+  "vessel_id": "002351f7584dcb3b6ab87557073727eadd310a71e141d35646da5a7e3c577ee0",
+  "country": "Greece",
+  "shiptype": 89,
+  "vessel_type_description": "Tanker, No additional information",
+  "start_time": {
+    "$date": "2019-01-06T17:41:34.000Z"
+  },
+  "end_time": {
+    "$date": "2019-01-06T17:50:03.000Z"
+  },
+  "point_count": 4,
+  "trajectory": [
+    {
+      "t": {
+        "$date": "2019-01-06T17:41:34.000Z"
+      },
+      "loc": {
+        "type": "Point",
+        "coordinates": [
+          23.51256,
+          38.02459
+        ],
+        "cell_id": 12
+      },
+      "metrics": {
+        "speed": 4.8,
+        "course": 301.6,
+        "heading": null,
+        "course_cardinal": "NW"
+      },
+      "weather_data": {
+        "temp_c": 29.92,
+        "wind_speed": 4.81,
+        "wind_dir": 248.33,
+        "humidity": 73.46,
+        "pressure": 1009.88,
+        "visibility": 23806.98,
+        "gust": 5.05,
+        "wind_cardinal": "W"
+      },
+      "annotations": []
+    },
+    {
+      "t": {
+        "$date": "2019-01-06T17:45:45.000Z"
+      },
+      "loc": {
+        "type": "Point",
+        "coordinates": [
+          23.50868,
+          38.02742
+        ],
+        "cell_id": 12
+      },
+      "metrics": {
+        "speed": 2.4,
+        "course": 330.1,
+        "heading": null,
+        "course_cardinal": "NW"
+      },
+      "weather_data": {
+        "temp_c": 29.92,
+        "wind_speed": 4.81,
+        "wind_dir": 248.33,
+        "humidity": 73.46,
+        "pressure": 1009.88,
+        "visibility": 23806.98,
+        "gust": 5.05,
+        "wind_cardinal": "W"
+      },
+      "annotations": []
+    },
+    {
+      "t": {
+        "$date": "2019-01-06T17:49:25.000Z"
+      },
+      "loc": {
+        "type": "Point",
+        "coordinates": [
+          23.50737,
+          38.03027
+        ],
+        "cell_id": 12
+      },
+      "metrics": {
+        "speed": 3.7,
+        "course": 348.4,
+        "heading": null,
+        "course_cardinal": "N"
+      },
+      "weather_data": {
+        "temp_c": 29.92,
+        "wind_speed": 4.81,
+        "wind_dir": 248.33,
+        "humidity": 73.46,
+        "pressure": 1009.88,
+        "visibility": 23806.98,
+        "gust": 5.05,
+        "wind_cardinal": "W"
+      },
+      "annotations": []
+    },
+    {
+      "t": {
+        "$date": "2019-01-06T17:50:03.000Z"
+      },
+      "loc": {
+        "type": "Point",
+        "coordinates": [
+          23.50722,
+          38.03092
+        ],
+        "cell_id": 12
+      },
+      "metrics": {
+        "speed": 3.7,
+        "course": 352.5,
+        "heading": null,
+        "course_cardinal": "N"
+      },
+      "weather_data": {
+        "temp_c": 29.92,
+        "wind_speed": 4.81,
+        "wind_dir": 248.33,
+        "humidity": 73.46,
+        "pressure": 1009.88,
+        "visibility": 23806.98,
+        "gust": 5.05,
+        "wind_cardinal": "W"
+      },
+      "annotations": []
+    }
+  ]
+}
