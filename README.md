@@ -148,4 +148,6 @@ This will:
 
 Connect using MongoDB Compass or:
 
+```bash
 docker exec -it ais-mongodb mongosh
+```
