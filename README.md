@@ -132,7 +132,7 @@ Download the AIS and weather datasets mentioned at the beginning of this README.
 
 Place them in the correct paths as defined at the top of each script inside /python_scripts
 
-3️⃣ Run the ETL Pipeline
+### 3️⃣ Run the ETL Pipeline
 python python_scripts/main.py
 
 This will:
@@ -143,3 +143,9 @@ This will:
 - Generate MongoDB documents
 - Create indexes
 - Load the database
+
+### 4️⃣ Access MongoDB
+
+Connect using MongoDB Compass or:
+
+docker exec -it ais-mongodb mongosh
